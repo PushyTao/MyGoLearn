@@ -28,6 +28,10 @@ var (
 	hobbyGlobal = true
 )
 
+const aa = 10
+
+//not ok
+//notOK := testConstVar()
 func main() {
 	var a int = 10
 	fmt.Printf("%d\n", a)
@@ -48,4 +52,8 @@ func main() {
 
 	fmt.Println(nameGlobal, ageGlobal, hobbyGlobal)
 
+	//fmt.Println(notOk)
+
+	var var1, var2, var3 = "name1", 1, "name2"
+	fmt.Println(var1, var2, var3)
 }
