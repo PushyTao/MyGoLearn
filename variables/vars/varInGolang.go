@@ -32,6 +32,7 @@ const aa = 10
 
 //not ok
 //notOK := testConstVar()
+
 func main() {
 	var a int = 10
 	fmt.Printf("%d\n", a)
