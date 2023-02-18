@@ -14,7 +14,7 @@
 
 4. slice 底层存储原理实际上可以看作是一个`结构体`
 
-   <img src="Collections.assets/image-20230218220419370.png" alt="image-20230218220419370" style="zoom:67%;" />
+   <img src="./Collections.assets/image-20230218220419370.png" alt="image-20230218220419370" style="zoom:67%;" />
 
    更改值的时候，会更改原始的值，使得其他使用有交集的数据的部分都会发生值的更改；如果是append会造成地址的更改，这个时候不会影响原始数据，所以说就不会对其他使用有交集的数据的部分都会发生值的更改
    
